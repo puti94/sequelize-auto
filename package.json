@@ -50,7 +50,7 @@
     "bin",
     "lib",
     "index.js",
-    "README.md"
+    "README.md",
     "package.json"
   ],
   "engines": {
