@@ -1,6 +1,6 @@
 {
   "name": "@puti94/sequelize-auto",
-  "version": "0.3.2",
+  "version": "0.4.2",
   "description": "Automatically generate bare sequelize models from your database.",
   "main": "index",
   "types": "lib/index.d.ts",
@@ -59,11 +59,11 @@
   "author": "Daniel Durante <me@danieldurante.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/bluebird": "^3.5.32",
     "async": "^2.1.5",
     "eslint": "^3.19.0",
     "lodash": "^4.17.15",
     "mkdirp": "^0.5.1",
+    "prettier": "2.0.5",
     "yargs": "^8.0.1"
   },
   "devDependencies": {
@@ -82,7 +82,7 @@
     "pg": "^8.1.0",
     "pg-hstore": "^2.3.2",
     "prettier": "^2.0.5",
-    "sequelize": "^5.21.9",
+    "sequelize": "^6.2.4",
     "sqlite3": "^4.2.0",
     "tedious": "^8.3.0",
     "ts-node-dev": "^1.0.0-pre.44",
